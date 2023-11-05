@@ -1,0 +1,16 @@
+[Unit]
+Description=ResetButton
+After=network.target
+
+[Service]
+# If User and Group are not specified, then by default systemd ExecStart runs as root
+User=root
+Group=root
+Type=simple
+ExecStart=/usr/bin/python /home/pi/reset_button/reset_button.py
+# write to journal or within script to separate log file
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
