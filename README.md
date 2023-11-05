@@ -12,13 +12,13 @@ The Reset Button normally must be open. Connect one wire to GP23 another to the 
  2. Install git if you haven't done it before 
  `sudo apt install git`
 
- 3. Get this script, goto script folder and make it runnable
+ 3. Download this script, goto script folder and make it runnable
  ```
  git clone https://github.com/kuleshovdv/reset_button.git
  cd reset_button
  chmod +x reset_button.py
  ```
- 4. If you connect Reset Button not to GP23 edit reset_button.py file
+ 4. If you connect your Reset Button not to GP23 edit reset_button.py file
  `nano reset_buton.py`
  and change GPIO chanel for Reset Button in python script:
  ```
