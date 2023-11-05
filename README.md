@@ -1,7 +1,7 @@
 # Reset Button for RetroPie
 This script controls the pressing of the Reset Button on your Rasblery Pi case like NESPi. One short press stops running game and returns you to Emulationstation reciprocally Hotkey+Select on your gamepad . A long press restarts the system.
 
-`![Connect reset button to your GP23 and Ground on Raspberry Pi GPIO connector](https://github.com/kuleshovdv/reset_button/blob/master/reset_button.png?raw=true "GPIO connection")`
+![Connect reset button to your GP23 and Ground on Raspberry Pi GPIO connector](https://github.com/kuleshovdv/reset_button/blob/master/reset_button.png?raw=true "GPIO connection")
 
 The Reset Button normally must be open. Connect one wire to GP23 another to the ground.
 
